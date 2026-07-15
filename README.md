@@ -1,26 +1,81 @@
 # Manufacturing Supply Chain Data Platform
 
-An end-to-end data engineering and business intelligence project that simulates manufacturing, shipping, and inventory operations.
+## Overview
+This project simulates a manufacturing company's end-to-end supply chain data platform.
 
-## Project Overview
+The pipeline automatically:
 
-This project generates realistic manufacturing supply chain data, processes it through a modular ETL pipeline, validates data quality, loads the cleaned data into SQLite, creates reusable SQL views, and exports reporting datasets for Power BI.
+- Generates shipment data
+- Generates production data
+- Generates inventory data
+- Cleans and validates data
+- Loads into SQLite
+- Creates SQL Views
+- Exports reporting datasets
+- Powers a Power BI dashboard
 
-## Architecture
+---
 
-```text
-Python Data Generators
-        ↓
-Raw CSV Files
-        ↓
+## Tech Stack
+
+Python
+Pandas
+SQLite
+SQL
+Power BI
+Git
+GitHub
+
+---
+
+## Project Architecture
+
+Raw Data
+↓
 Extract
-        ↓
+↓
 Transform
-        ↓
+↓
 Validate
-        ↓
+↓
 SQLite Database
-        ↓
+↓
 SQL Views
-        ↓
+↓
+CSV Export
+↓
 Power BI Dashboard
+
+---
+
+## Features
+
+✔ Automated ETL Pipeline
+
+✔ Data Validation
+
+✔ SQLite Database
+
+✔ SQL Views
+
+✔ Power BI Dashboard
+
+✔ Logging
+
+✔ Modular Python Scripts
+
+---
+
+## Dashboard
+
+(Add screenshot here)
+
+---
+
+## Future Improvements
+
+- Airflow scheduling
+- Docker containerization
+- Azure SQL
+- Power BI Service
+- Email alerts
