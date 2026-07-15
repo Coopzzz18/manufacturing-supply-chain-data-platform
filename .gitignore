@@ -1,0 +1,33 @@
+# Python temporary files
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# VS Code settings
+.vscode/
+
+# Pipeline-generated logs
+logs/*.log
+
+# Generated databases
+database/*.db
+
+# Generated data files
+data/raw/*.csv
+data/cleaned/*.csv
+reports/power_bi_data/*.csv
+
+# Power BI temporary files
+~$*.pbix
+*.pbit
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Old practice files
+shipment_analysis - Copy.py
