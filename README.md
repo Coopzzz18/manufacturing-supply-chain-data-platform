@@ -68,7 +68,8 @@ Power BI Dashboard
 
 ## Dashboard
 
-(Add screenshot here)
+
+![Manufacturing Operations Dashboard](images/manufacturing_dashboard.png)
 
 ---
 
